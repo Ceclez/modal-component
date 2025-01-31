@@ -1,0 +1,152 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: "Abril Fatface", sans-serif;
+}
+
+html {
+  font-size: 10px;
+  overflow: hidden;
+}
+
+.main-container .main-container__carousel-container .carousel-container__carousel {
+  background-image: linear-gradient(to bottom, #71C1FF, #683FBF);
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card {
+  width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 4rem 4rem;
+  border-radius: 2rem 0 0 2rem;
+  background: linear-gradient(270deg, #474747, #1A1A1A);
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content h1 {
+  font-size: 3.6rem;
+  letter-spacing: 1px;
+  color: #FFF;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content span {
+  margin-top: -1.5rem;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content span ion-icon {
+  font-size: 2rem;
+  color: #fff200;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content p {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: inherit;
+  font-style: italic;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  color: #C6C6C6;
+  text-align: center;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content .content__buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content .content__buttons button {
+  font-size: 1.8rem;
+  font-family: math;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background: #fff200;
+  border: 1px solid #fff200;
+  color: #333;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content .content__buttons button:hover {
+  background: #C3BA0F;
+  border: 1px solid #C3BA0F;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content .content__buttons .buttons__button--btn1 {
+  font-style: italic;
+  background: #FFF;
+  color: #333;
+  border: 1px solid #FFF;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card-container__card .card__content .content__buttons .buttons__button--btn1:hover {
+  background: #C6C6C6;
+  border: 1px solid #CCC;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card__img {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  background: #FAFAFA;
+  border-radius: 0 2rem 2rem 0;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card__img img {
+  width: 100%;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel .carousel__card-container .card__img--05 {
+  background: #FFF;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel-buttons .carousel-buttons__previous-icon {
+  width: 3rem;
+  height: 3rem;
+}
+.main-container .main-container__carousel-container .carousel-container__carousel-buttons .carousel-buttons__next-icon {
+  width: 3rem;
+  height: 3rem;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-header {
+  margin: 0 2rem;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-header .modal-header__title {
+  font-size: 2.6rem !important;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-header .modal-header__icon-close {
+  font-size: 1.2rem;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-body {
+  padding: 3rem;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-body p {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: inherit;
+  line-height: 1.6;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-footer .modal-footer__button {
+  font-size: 1.8rem;
+  font-family: math;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border: 2px solid #1A1A1A;
+  background: #1A1A1A;
+  color: #FFF;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-footer .modal-footer__button:hover {
+  background: #474747;
+  border: 2px solid #474747;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-footer .modal-footer___button--save-button {
+  margin-left: 0.5rem;
+  border: 2px solid #fff200;
+  background: #fff200;
+  color: #1A1A1A;
+}
+.main-container .main-container__modal-container .modal-container__modal-content-container .modal-content-container__modal-content .modal-content__modal-footer .modal-footer___button--save-button:hover {
+  background: #C3BA0F;
+  border: 2px solid #C3BA0F;
+}
+
+/*# sourceMappingURL=styles.css.map */
