@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP'S CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Gothic:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <!--STYLES-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Component Modal</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <!--INICIA ZONA DE BOOTSTRAP-->
+        <div id="carouselExampleFade" class="main-container__carousel-container carousel slide carousel-fade"
+            data-bs-ride="carousel">
+            <div class="carousel-container__carousel carousel-inner">
+
+                <!--INICIO DE NUEVA TARJETA-->
+                <div class="carousel__card-container carousel-item active">
+                    <div class="card-container__card card-container__card--card-01">
+                        <div class="card__content">
+                            <h1 class="content__title">Chuck 70</h1>
+                            <span class="content__rating">
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star-half" class="rating__halfstar-icon"></ion-icon>
+                                <ion-icon name="star-outline" class="rating__outlinestar-icon"></ion-icon>
+                            </span>
+                            <p class="content__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo esse magnam
+                                corrupti in atque nulla labore, amet quos explicabo.
+                                <br>
+                                Est dolorem ea omnis sapiente tenetur enim veritatis, adipisicing elit. Veritatis illo esse magnam
+                                corrupti nulla labore.
+                            </p>
+                            <div class="content__buttons">
+                                <button type="button" class="buttons__button buttons__button--btn1 btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    More info
+                                </button>
+                                <button class="buttons__button buttons__button--btn2 btn btn-primary" type="submit">
+                                    Buy now!
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card__img">
+                            <img src="img/converse-01.webp" alt="imagen ejemplo ilustrativa del producto">
+                        </div>
+                    </div>
+                </div>
+
+                <!--INICIO DE NUEVA TARJETA-->
+                <div class="carousel__card-container carousel-item">
+                    <div class="card-container__card card-container__card--card-01">
+                        <div class="card__content">
+                            <h1 class="content__title">Chuck Taylor en bota</h1>
+                            <span class="content__rating">
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star-half" class="rating__halfstar-icon"></ion-icon>
+                            </span>
+                            <p class="content__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo esse magnam
+                                corrupti in atque nulla labore, amet quos explicabo.
+                                <br>
+                                Est dolorem ea omnis sapiente tenetur enim veritatis, adipisicing elit. Veritatis illo esse magnam
+                                corrupti nulla labore.
+                            </p>
+                            <div class="content__buttons">
+                                <button type="button" class="buttons__button buttons__button--btn1 btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    More info
+                                </button>
+                                <button class="buttons__button buttons__button--btn2 btn btn-primary" type="submit">
+                                    Buy now!
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card__img">
+                            <img src="img/converse-02.webp" alt="imagen ejemplo ilustrativa del producto">
+                        </div>
+                    </div>
+                </div>
+
+                <!--INICIO DE NUEVA TARJETA-->
+                <div class="carousel__card-container carousel-item">
+                    <div class="card-container__card card-container__card--card-01">
+                        <div class="card__content">
+                            <h1 class="content__title">Chuck Taylor</h1>
+                            <span class="content__rating">
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                            </span>
+                            <p class="content__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo esse magnam
+                                corrupti in atque nulla labore, amet quos explicabo.
+                                <br>
+                                Est dolorem ea omnis sapiente tenetur enim veritatis, adipisicing elit. Veritatis illo esse magnam
+                                corrupti nulla labore.
+                            </p>
+                            <div class="content__buttons">
+                                <button type="button" class="buttons__button buttons__button--btn1 btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    More info
+                                </button>
+                                <button class="buttons__button buttons__button--btn2 btn btn-primary" type="submit">
+                                    Buy now!
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card__img">
+                            <img src="img/converse-03.webp" alt="imagen ejemplo ilustrativa del producto">
+                        </div>
+                    </div>
+                </div>
+
+                <!--INICIO DE NUEVA TARJETA-->
+                <div class="carousel__card-container carousel-item">
+                    <div class="card-container__card card-container__card--card-01">
+
+                        <div class="card__content">
+                            <h1 class="content__title">Run star hike</h1>
+                            <span class="content__rating">
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star-outline" class="rating__outlinestar-icon"></ion-icon>
+                                <ion-icon name="star-outline" class="rating__outlinestar-icon"></ion-icon>
+                            </span>
+                            <p class="content__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo esse magnam
+                                corrupti in atque nulla labore, amet quos explicabo.
+                                <br>
+                                Est dolorem ea omnis sapiente tenetur enim veritatis, adipisicing elit. Veritatis illo esse magnam
+                                corrupti nulla labore.
+                            </p>
+                            <div class="content__buttons">
+                                <button type="button" class="buttons__button buttons__button--btn1 btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    More info
+                                </button>
+                                <button class="buttons__button buttons__button--btn2 btn btn-primary" type="submit">
+                                    Buy now!
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card__img">
+                            <img src="img/converse-04.webp" alt="imagen ejemplo ilustrativa del producto">
+                        </div>
+                    </div>
+                </div>
+
+                <!--INICIO DE NUEVA TARJETA-->
+                <div class="carousel__card-container carousel-item">
+                    <div class="card-container__card card-container__card--card-01">
+
+                        <div class="card__content">
+                            <h1 class="content__title">Chuck Taylor All Star Move</h1>
+                            <span class="content__rating">
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star" class="rating__star-icon"></ion-icon>
+                                <ion-icon name="star-half" class="rating__halfstar-icon"></ion-icon>
+                                <ion-icon name="star-outline" class="rating__outlinestar-icon"></ion-icon>
+                            </span>
+                            <p class="content__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo esse magnam
+                                corrupti in atque nulla labore, amet quos explicabo.
+                                <br>
+                                Est dolorem ea omnis sapiente tenetur enim veritatis, adipisicing elit. Veritatis illo esse magnam
+                                corrupti nulla labore.
+                            </p>
+                            <div class="content__buttons">
+                                <button type="button" class="buttons__button buttons__button--btn1 btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    More info
+                                </button>
+                                <button class="buttons__button buttons__button--btn2 btn btn-primary" type="submit">
+                                    Buy now!
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card__img card__img--05">
+                            <img src="img/converse-05.webp" alt="imagen ejemplo ilustrativa del producto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--BOTONES LATERALES DEL CAROUSEL-->
+            <button class="carousel-container__carousel-buttons carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-buttons__previous-icon carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-buttons__visually-hidden visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-container__carousel-buttons carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-buttons__next-icon carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-buttons__visually-hidden visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="main-container__modal-container modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-container__modal-content-container modal-dialog modal-dialog-scrollable">
+                <div class="modal-content-container__modal-content modal-content">
+                    <div class="modal-content__modal-header modal-header">
+                        <h1 class="modal-header__title modal-title fs-5" id="exampleModalLabel">About the product</h1>
+                        <button type="button" class="modal-header__icon-close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-content__modal-body modal-body">
+                        <p class="modal-body__para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium pariatur quibusdam numquam
+                            expedita placeat, beatae accusantium animi. Veritatis unde quos quisquam, odio quidem totam
+                            dolore? Non explicabo esse maiores reiciendis. <br><br>
+                            Pariatur repudiandae doloribus recusandae, cum eaque
+                            animi temporibus reiciendis repellat tempora voluptate debitis explicabo molestias ipsam
+                            consectetur veritatis, labore adipisci iure quidem laudantium. <br><br>
+                            beatae accusantium animi. Veritatis unde quos quisquam, odio quidem totam
+                            dolore? Non explicabo esse maiores reiciendis. <br>
+                            Pariatur repudiandae sint veniam ex quasi in dolores? doloribus recusandae, cum eaque
+                            animi temporibus reiciendis repellat tempora voluptate debitis explicabo molestias ipsam
+                            consectetur veritatis, labore adipisci iure quidem laudantium. <br>
+                            Pariatur repudiandae sint veniam ex quasi in voluptate debitis explicabo molestias ipsam
+                            consectetur veritatis, labore adipisci iure quidem laudantium. <br><br>
+                            Pariatur repudiandae sint veniam ex quasi, doloribus recusandae, cum eaque
+                            animi temporibus reiciendis repellat tempora voluptate debitis explicabo molestias ipsam
+                            consectetur veritatis, labore adipisci iure quidem laudantium. <br>
+                            Pariatur repudiandae sint veniam ex quasi in doloribus recusandae, cum eaque
+                            animi temporibus reiciendis repellat tempora voluptate debitis explicabo molestias ipsam
+                            consectetur veritatis, labore adipisci iure.
+                        </p>
+                    </div>
+                    <div class="modal-content__modal-footer modal-footer">
+                        <button type="button" class="modal-footer__button modal-footer__button--close-button btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="modal-footer__button modal-footer___button--save-button btn btn-primary">Buy now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Bootstrap's JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!--Ion Icon's JS-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
